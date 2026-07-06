@@ -1,0 +1,43 @@
+# 2) 
+# 1. დაგეგმვა
+# 2. კოდის დაწერა 
+# 3. ტესტირება/გამართვა 
+
+# 5) 
+# case-sensitive: დიდი და პატარა ასოები განსხვავდება 
+# case-insensitive: დიდი და პატარა ასოები ერთნაირად ითვლება
+
+# 3)
+a = 10
+b = 3
+
+print( a + b)
+print( a - b)
+print( a * b)
+print( a / b)    
+print(a // b)
+print(a % b)
+print(a ** b)
+
+# 4) 
+# / → აბრუნებს ათწილადს
+# // → აბრუნებს მხოლოდ მთელ ნაწილს
+
+# 6)
+name = "Tornike"
+age = 14
+color = "black"
+car = "Alfa Romeo Giulia"
+city = "Zestaponi"
+
+print("My name is " + name + ", I am " + ("age") + " years old. My favorite color is " + color + ", my favorite car is " + car + ", and I live in " + city + ".")
+
+# 7) 
+num1 = 10
+num2 = 5
+num3 = 2
+
+print("ჯამი:", num1 + num2 + num3)
+print("სხვაობა:", num1 - num2 - num3)
+print("ნამრავლი:", num1 * num2 * num3)
+print("განაყოფი:", num1 / num2 / num3)
