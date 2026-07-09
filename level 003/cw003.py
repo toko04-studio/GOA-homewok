@@ -8,6 +8,6 @@ age=14
 color="black"
 car="alfa romeo"
 live="zestafoni"
- 
 
-print("my name is" + name + "am " + age  "my favirute color is" + color + "my favorite car is" +  car + "im live in" + live + ".")
+
+print("my name is" + name + "am " + age + "my favirute color is" + color + "my favorite car is" +  car + "im live in" + live + ".")
