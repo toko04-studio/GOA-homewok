@@ -1,0 +1,44 @@
+<!-- 1) Drop Down Menu არის ჩამოსაშლელი მენიუ, რომელიც მომხმარებელს რამდენიმე ვარიანტიდან ერთის არჩევის საშუალებას აძლევს.
+
+2) Drop Down Menu 3 ვარიანტით
+
+3) select თეგი გამოიყენება ჩამოსაშლელი მენიუს შესაქმნელად, ხოლო option თეგები მენიუში არსებულ ვარიანტებს ქმნის.
+
+4) ვიდეოებზე გამოყენებული ატრიბუტები:
+controls - აჩენს ვიდეოს მართვის ღილაკებს.
+width - განსაზღვრავს ვიდეოს სიგანეს.
+autoplay - ვიდეოს ავტომატურად რთავს.
+muted - ვიდეოს ხმის გარეშე რთავს.
+src - ვიდეო ფაილის მისამართია.
+type - ვიდეოს ფორმატს განსაზღვრავს.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Homework</title>
+</head>
+<body>
+
+    <h2>Choose Language</h2>
+
+    <select>
+        <option>Georgian</option>
+        <option>Russian</option>
+        <option>English</option>
+    </select>
+
+    <br><br>
+
+    <h2>Video 1</h2>
+    <video width="400" controls>
+        <source src="video1.mp4" type="video/mp4">
+    </video>
+
+    <h2>Video 2</h2>
+    <video width="400" controls autoplay muted>
+        <source src="video2.mp4" type="video/mp4">
+    </video>
+
+</body>
+</html>
