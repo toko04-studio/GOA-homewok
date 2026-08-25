@@ -1,0 +1,14 @@
+.first {
+    color: blue;
+    font-size: 15px;
+}
+
+.second {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+
+.third {
+    color: #008000;
+    font-size: 30px;
+}

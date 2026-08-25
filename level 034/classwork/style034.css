@@ -1,0 +1,50 @@
+body {
+    background: #242424;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Pseudo Selectors */
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: blue;
+}
+
+/* Table */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    background: white;
+    color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+th, td {
+    padding: 7px 15px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #e9e9e9;
+    font-weight: bold;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+th:last-child,
+td:last-child {
+    border-right: none;
+}

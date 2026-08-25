@@ -1,0 +1,36 @@
+/* 2 */
+.parent-div {
+  color: blue; /* ტექსტის ფერი გადავა პარაგრაფებზეც (Inheritance) */
+  font-family: sans-serif;
+  border: 2px solid gray; /* ბორდერი ექნება მხოლოდ div-ს */
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: chartreuse;
+}
+
+ /* 3*/ 
+#banner {
+  background-color: yellow;
+  padding: 15px;
+  font-weight: bold;
+}
+/* 4 */
+.box {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px 0;
+}
+/* 5 */
+.main p {
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* 6 */
+.red-text {
+  color: red;
+}
+
+#title {
+  color: blue; /* ID-ის მაღალი პრიორიტეტის გამო h1 გახდება ლურჯი */
+}

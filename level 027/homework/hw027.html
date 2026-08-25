@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Davaleba</title>
+
+    <!--
+    Inline CSS - სტილი იწერება პირდაპირ HTML თეგში style ატრიბუტის გამოყენებით.
+
+    Internal CSS - სტილი იწერება HTML ფაილის <head> ნაწილში <style> თეგის გამოყენებით.
+
+    External CSS - სტილი იწერება ცალკე CSS ფაილში და HTML-ს უკავშირდება <link> თეგით.
+    -->
+
+    <style>
+        /* Internal CSS */
+
+        h1{
+            color: blue;
+            background-color: lightgray;
+            text-align: center;
+            border: 2px solid black;
+            padding: 10px;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- Inline CSS პარაგრაფები -->
+
+    <p style="color:red; font-size:20px; background-color:yellow;">
+        პირველი პარაგრაფი
+    </p>
+
+    <p style="color:blue; font-size:18px; text-align:center;">
+        მეორე პარაგრაფი
+    </p>
+
+    <p style="color:green; font-size:22px; border:2px solid black;">
+        მესამე პარაგრაფი
+    </p>
+
+    <p style="color:white; background-color:black; padding:10px;">
+        მეოთხე პარაგრაფი
+    </p>
+
+    <!-- Internal CSS სათაურები -->
+
+    <h1>სათაური 1</h1>
+    <h1>სათაური 2</h1>
+    <h1>სათაური 3</h1>
+    <h1>სათაური 4</h1>
+
+    <!-- External CSS საიტის ნაწილი -->
+
+    <button>დააჭირე</button>
+
+</body>
+</html>
