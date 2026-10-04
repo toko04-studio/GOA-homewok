@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 80px 80px 80px;
+    gap: 5px;
+    height: 50px;
+    width: 5;
+}
+
+div {
+    border: 5px solid rgb(245, 180, 0);
+}
+
+.div1 {
+    grid-column: span 3;
+    background-color: #82aaf0;
+}
+
+.div2 {
+    background-color: #ff5360;
+}
+
+.div3 {
+    background-color: #83e784;
+}
+
+.div4 {
+    background-color: #ff5360;
+}
+
+.div5 {
+    grid-column: span 3;
+    background-color: #ff844d;
+}

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
+    background: #e70b3b;
+}
+
+.yellow {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    right: 0;
+    background: rgb(255, 255, 0);
+}
+
+.blue {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 0;
+    background: #00f7ff;
+}
+
+.purple {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    left: 100px;
+    background: rgb(213, 0, 213);
+}

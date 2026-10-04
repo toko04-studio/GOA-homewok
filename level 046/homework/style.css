@@ -1,0 +1,44 @@
+/* grid - არის განლაგები სისტემა რომელიც გვეხმარება rows და column ის  განლაგებაში */
+
+/* grid - ით ვაკეთბთ ცხრიილს სვეტებს და რიგებს */
+
+
+/* grid-template-columns: 1fr 1fr 
+აკეთებს 2 სვეტს */
+
+/* grid-template-rows: 100px 
+აკეთებს რიგს რომლის სიმაღლეა 100px*/
+
+/* grid-ის განლგაბეისთვის განკუთვნილი სპეციალური საზომი ერთეული რომელიცაა 1fr */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div1{
+    width: 500px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 100px;
+    gap: 10px;
+}
+
+.div2{
+    background-color: 
+    rgb(0, 0, 0);
+     color: aliceblue;
+    background-color: rgb(75, 75, 75);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+

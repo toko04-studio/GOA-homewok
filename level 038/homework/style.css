@@ -1,0 +1,111 @@
+
+/* 
+Flexbox გამოიყენება ელემენტების მარტივად განლაგებისა და გასწორებისთვის
+*/
+
+/* flex-direction - კუთვნილება რომელიც გვაძლევს საშუალებას ვმართოთ flex განლაგების მიმართულება  */
+
+/* justify-content - ით შეგვილაი ელემენტები ვმართოთ x ღერძზე */
+
+/* align-items -ით შეგვილია ელემენტები ვმართოთ y ღერძზე */
+
+/* gap - აკეთებს დაშორებას ელემენტებს შორის */
+
+
+.container1 {
+    display: flex;
+    align-items: center;
+    border: 2px dashed black;
+    padding: 15px;
+    gap: 10px;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+}
+
+.end {
+    margin-left: i;
+}
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.container2 {
+    width: 400px;
+    height: 300px;
+    border: 2px dashed gray;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box {
+    background-color: #4d90d9;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex: 1;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 50px;
+}
+
+.container3 {
+    width: 400px;
+    padding: 40px;
+    border: 1px solid #ddd;
+}
+
+h1 {
+    margin: 0 0 10px;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    padding: 10px;
+}
+
+.item3 {
+    background-color: #ffbf18;
+}
+
+.item2 {
+    background-color: #4d90d9;
+}
+
+.item1 {
+    background-color: #28a745;
+}

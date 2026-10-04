@@ -1,0 +1,19 @@
+ body {
+            margin: 0;
+            background: #750d0d;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            width: 420px;
+        }
+
+        .post {
+            height: 85px;
+            background: #020202;
+            border: 2px dashed white;
+            box-sizing: border-box;
+            padding: 12px;
+            color: white;
+        }
