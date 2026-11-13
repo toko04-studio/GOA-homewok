@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.box {
+    width: 150px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 40px;
+}
+
+
+.translate {
+    transform: translate(50px, 20px);
+}
+
+
+.scale {
+    background-color: lightgreen;
+    transform: scale(1);
+}
+
+
+.skew {
+    background-color: lightcoral;
+    transform: skew(20deg);
+}
+
+.rotate {
+    background-color: gold;
+    transform: rotate(45deg);
+}

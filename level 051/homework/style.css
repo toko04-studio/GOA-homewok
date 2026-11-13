@@ -1,0 +1,64 @@
+
+/* 
+Transform გამოიყენება ელემენტის შესაცვლელად
+მისი საშუალებით შეგვიძლია ელემენტის გადაადგილება
+გაზრდა დაპატარავება დახრა და დატრიალება
+
+Transform-ის მნიშვნელობებია
+translate() - ელემენტის გადაადგილება
+scale() - ელემენტის გაზრდა ან დაპატარავება
+skew() - ელემენტის დახრა
+rotate() - ელემენტის დატრიალება
+*/
+
+/* საერთო სტილი */
+
+body {
+    background-color: #292929;
+    font-family: Arial;
+    padding: 30px;
+}
+
+h2 {
+    color: white;
+    margin-top: 40px;
+}
+
+.box {
+    width: 150px;
+    height: 100px;
+    background-color: limegreen;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 30px;
+    transition: 0.5s;
+}
+
+
+
+
+.box1:hover {
+    transform: translate(200px, 150px);
+}
+
+
+
+.box2:hover {
+    transform: scale(2.5);
+}
+
+
+
+
+.box3:hover {
+    transform: skew(30deg, 45deg);
+}
+
+
+
+.box4:hover {
+    transform: rotate(125deg);
+}

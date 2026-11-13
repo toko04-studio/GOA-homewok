@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+
+ 
+div {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 158, 174);
+    border: 1px solid black;
+    transition: 3s;
+}
+
+div:hover {
+    background-color: rgb(173, 0, 173);
+    border: 5px dotted red;
+}
+    
+ button {
+    background-color: red;
+    color: white;
+    transition: 2s;
+    width: 100px;
+    height: 100px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
